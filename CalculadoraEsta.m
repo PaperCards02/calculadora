@@ -42,7 +42,7 @@ switch tipo
                 percentil=prctile(datos,p);
                 display(percentil)
             otherwise
-                warning('el valor ingresado no concuerda con la instrucción')
+                warning('El valor ingresado no concuerda con la instrucción')
         end
     case 2 %DATOS AGRUPADOS
         datos=input('ingrese sus datos así: \n');
@@ -59,11 +59,11 @@ switch tipo
             case 4 %histograma
                 
             otherwise
-                warning('el valor ingresado no concuerda con la instrucción')
+                warning('El valor ingresado no concuerda con la instrucción')
         end 
                 
     otherwise
-        warning('el valor ingresado no concuerda con la instrucción')     
+        warning('El valor ingresado no concuerda con la instrucción')     
               
 
 end
